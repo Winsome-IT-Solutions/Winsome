@@ -13,12 +13,15 @@ body {
   overflow-x: hidden;
 }
 
+/* hero-container */
+
 .hero-container {
   padding-top: 40px;
   align-items: center;
 }
 
 .hero-text-block {
+  padding-top: 50px;
   padding-left: 200px;
 }
 
@@ -75,4 +78,13 @@ body {
     transform: scale(0.8);
     left: -505px;
   }
+}
+
+/* End of hero-container */
+
+/* About Us */
+
+.aboutUs-container {
+  padding-left: 40px;
+  padding-top: 200px;
 }
