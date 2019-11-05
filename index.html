@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,300italic,600,600italic,700,700italic,800,800italic">
     <link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/97609687/codepen/style.css">
 
-    
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
 
   <body>
@@ -70,16 +70,12 @@
     <!-- Hero Section -->
     
     <div class="hero-container d-flex justify-content-between">
-      <h1 class="hero-text-block display-3">
+      <h1 class="hero-text-block display-3 typing">
         WINSOME <span class="d-block" style="font-size: 2.5rem;">IT SOLUTIONS</span>
         <small class="hero-subheading d-block text-muted"
           >Delivering Possibilities</small
         >
       </h1>
-
-
-      
-
 
       <div class="animation-block">
         <img class="bg1" src="img/bg-bubble.png" alt="" />
@@ -87,7 +83,20 @@
         <img class="bg3" src="img/cat.png" alt="" />
       </div>
     </div>
-    <div class="area-bg"></div>
+    <div class="area-bg">
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+</ul>
+    </div>
     <!-- End of Hero Section -->
 
     <!-- About Us -->
@@ -421,149 +430,202 @@
 
     <!-- Service Cards -->
 
-    <div class="container-fluid"> 
-      <div class="card-deck mt-5">
-        <div class="card">
-          <div class="card-block">
-            <h4 class="card-title text-right icon"><i class="material-icons">settings</i></h4>
-            <img class="img-Cards" src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif">
-            <h4 class="card-title mt-2">Card 1</h4>
-            <p class="card-text"><strong class="animated-text">Hello Card 1, Nice to see you </strong></p>       
-          </div>        
-        </div>
-        <div class="card">
-          <div class="card-block">
-            <h4 class="card-title text-right icon"><i class="material-icons" data-toggle="modal" data-target="#flipflop">settings</i></h4>
-            <img class="img-Cards" src="https://media.giphy.com/media/ukMiDlCmdv2og/giphy.gif">
-            <h4 class="card-title mt-2">Card 2</h4>
-            <p class="card-text"><strong class="animated-text">Hello Card 2, Nice to see you </strong></p>       
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-block">
-            <h4 class="card-title text-right icon"><i class="material-icons" data-toggle="modal" data-target="#card-3">settings</i></h4>
-            <img class="img-Cards" src="https://media.giphy.com/media/l3q2XB76CaWPggiNW/giphy.gif">
-            <h4 class="card-title mt-2">Card 3</h4>
-            <p class="card-text"><strong class="animated-text">Hello Card 3, Nice to see you, you should look bigger than the card 1 and card 2. please click on cog icon for form modal</strong></p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-block">
-            <h4 class="card-title text-right icon"><i class="material-icons">settings</i></h4>
-            <img class="img-Cards" src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif">
-            <h4 class="card-title mt-2">Card 4</h4>
-            <p class="card-text"><strong class="animated-text">Hello Card 4, Nice to see you</strong></p>       
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-block">
-            <h4 class="card-title text-right icon"><i class="material-icons">settings</i></h4>
-            <img class="img-Cards" src="https://media.giphy.com/media/xT4uQF7h39mlsF5czK/giphy.gif">
-            <h4 class="card-title mt-2">Card 5</h4>
-            <p class="card-text"><strong class="animated-text">Hello Card 5, Nice to see you, you should look bigger than the card 1 and card 2. please improve</strong></p>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-    <div class="modal animated bounceInLeft" id="card-3" tabindex="-1" role="dialog" arialabelledby="modallabelsmall" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-           <h6 class="modal-title">Create Organization</h6>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true" class="close">&times;</span>
-            </button>
-          </div> 
-          <div class="modal-body">
-            <form>
-              <div class="container-fluid">
-                <div class="row">              
-                  <div class="col-lg-10 col-md-12">
-                    <div class="form-group row">
-                      <label for="first_name" class="col-3 col-form-label">Name</label>
-                      <div class="col-9">
-                        <input type="text" class="form-control" id="first_name" name="first_name">
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label for="alias" class="col-3 col-form-label">Alias</label>
-                      <div class="col-9">
-                        <input type="text" class="form-control" id="org_type" name="org_type">
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label for="org_type" class="col-3 col-form-label">Type</label>
-                      <div class="col-9">
-                        <input type="text" class="form-control" id="org_type" name="org_type">
-                      </div>
-                    </div>                
+    <div class="service">
+      <div class="container-fluid"> 
+        <div class="card-deck mt-5">
+            <div class="card">
+                <div class="card-head">
+                  <img src="https://s5.postimg.cc/wy79025cz/nike_Logo_White.png" alt="logo" class="card-logo">
+                  <img src="https://s5.postimg.cc/j9r8yf9gn/sws1.png" alt="Shoe" class="product-img">
+                  <div class="product-detail">
+                    <h2>Hartbeespoort</h2>
+                    <span>Support and Nike Zoom Air come together for a more supportive feel with high-speed responsiveness</span>
                   </div>
-                  <div class="col-2 modal-logo hidden-md-down">
-                    <img src="https://static.pexels.com/photos/306803/pexels-photo-306803.jpeg">
-                    <div class="ovrly"></div>
-                    <div class="img-buttons">
-                      <a role="button"><i class="material-icons">file_upload</i></a>
-                      <a role="button"><i class="material-icons">delete_forever</i></a>                
-                    </div>
-                  </div>
+                  <span class="back-text">
+                    FAS
+                  </span>
                 </div>
-                 <div class="form-group row">
-                   <label for="description" class="col-2 col-form-label">Description</label>
-                    <div class="col-9 ml-5">
-                      <textarea class="form-control" id="description" rows="3"></textarea>
-                   </div>
-                </div>           
-                <div class="form-group row">
-                  <label for="address1" class="col-2 col-form-label">Address</label>
-                  <div class="col-9 ml-5">
-                    <input type="text" class="form-control" id="address1" name="address1">
+                <div class="card-body">
+                  <div class="product-desc">
+                    <span class="product-title">
+                      HartBee<b>spoort</b>
+                      <span class="badge">
+                        New
+                      </span>
+                    </span>
+                    <span class="product-caption">
+                      Basket Ball Collection
+                    </span>
+                    <span class="product-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star grey"></i>
+                    </span>
                   </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-8 col-xs-12">
-                   <div class="form-group row">
-                    <label for="address2" class="col-3 col-form-label">Address 2</label>
-                    <div class="col-7 ml-lg-5">
-                      <input type="text" class="form-control" id="address2" name="address2">
-                    </div>
-                   </div>
+                  <div class="product-properties">
+                    <span class="product-price">
+                      USD<b>23,453</b>
+                    </span>
                   </div>
-                  <div class="col-md-4 col-xs-12">
-                   <div class="form-group row">
-                    <label for="city" class="col-md-4 col-sm-3 col-form-label text-lg-right">City</label>
-                    <div class="col-7">
-                      <input type="text" class="form-control" id="city" name="city">
-                    </div>
-                   </div>
-                  </div>
-                  
-                </div>
-                <div class="row">
-                  <div class="col-md-8 col-xs-12">
-                   <div class="form-group row">
-                    <label for="State" class="col-3 col-form-label">State</label>
-                    <div class="col-7 ml-lg-5">
-                      <input type="text" class="form-control" id="State" name="State">
-                    </div>
-                   </div>
-                  </div>
-                  <div class="col-md-4 col-xs-12">
-                   <div class="form-group row">
-                    <label for="zipcode" class="col-md-4 col-sm-3 col-form-label text-lg-right">Zip</label>
-                    <div class="col-7">
-                      <input type="text" class="form-control" id="zipcode" name="zipcode">
-                    </div>
-                   </div>
-                  </div>
-                  
                 </div>
               </div>
-            </form>
+              <div class="card">
+                  <div class="card-head">
+                    <img src="https://s5.postimg.cc/wy79025cz/nike_Logo_White.png" alt="logo" class="card-logo">
+                    <img src="https://s5.postimg.cc/j9r8yf9gn/sws1.png" alt="Shoe" class="product-img">
+                    <div class="product-detail">
+                      <h2>Hartbeespoort</h2>
+                      <span>Support and Nike Zoom Air come together for a more supportive feel with high-speed responsiveness</span>
+                    </div>
+                    <span class="back-text">
+                      FAS
+                    </span>
+                  </div>
+                  <div class="card-body">
+                    <div class="product-desc">
+                      <span class="product-title">
+                        HartBee<b>spoort</b>
+                        <span class="badge">
+                          New
+                        </span>
+                      </span>
+                      <span class="product-caption">
+                        Basket Ball Collection
+                      </span>
+                      <span class="product-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star grey"></i>
+                      </span>
+                    </div>
+                    <div class="product-properties">
+                      <span class="product-price">
+                        USD<b>23,453</b>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                    <div class="card-head">
+                      <img src="https://s5.postimg.cc/wy79025cz/nike_Logo_White.png" alt="logo" class="card-logo">
+                      <img src="https://s5.postimg.cc/j9r8yf9gn/sws1.png" alt="Shoe" class="product-img">
+                      <div class="product-detail">
+                        <h2>Hartbeespoort</h2>
+                        <span>Support and Nike Zoom Air come together for a more supportive feel with high-speed responsiveness</span>
+                      </div>
+                      <span class="back-text">
+                        FAS
+                      </span>
+                    </div>
+                    <div class="card-body">
+                      <div class="product-desc">
+                        <span class="product-title">
+                          HartBee<b>spoort</b>
+                          <span class="badge">
+                            New
+                          </span>
+                        </span>
+                        <span class="product-caption">
+                          Basket Ball Collection
+                        </span>
+                        <span class="product-rating">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star grey"></i>
+                        </span>
+                      </div>
+                      <div class="product-properties">
+                        <span class="product-price">
+                          USD<b>23,453</b>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-head">
+                        <img src="https://s5.postimg.cc/wy79025cz/nike_Logo_White.png" alt="logo" class="card-logo">
+                        <img src="https://s5.postimg.cc/j9r8yf9gn/sws1.png" alt="Shoe" class="product-img">
+                        <div class="product-detail">
+                          <h2>Hartbeespoort</h2>
+                          <span>Support and Nike Zoom Air come together for a more supportive feel with high-speed responsiveness</span>
+                        </div>
+                        <span class="back-text">
+                          FAS
+                        </span>
+                      </div>
+                      <div class="card-body">
+                        <div class="product-desc">
+                          <span class="product-title">
+                            HartBee<b>spoort</b>
+                            <span class="badge">
+                              New
+                            </span>
+                          </span>
+                          <span class="product-caption">
+                            Basket Ball Collection
+                          </span>
+                          <span class="product-rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star grey"></i>
+                          </span>
+                        </div>
+                        <div class="product-properties">
+                          <span class="product-price">
+                            USD<b>23,453</b>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+          <!-- <div class="card">
+            <div class="card-block">
+              <h4 class="card-title text-right icon"><i class="material-icons">settings</i></h4>
+              <img class="img-Cards" src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif">
+              <h4 class="card-title mt-2">Card 1</h4>
+              <p class="card-text"><strong class="animated-text">Hello Card 1, Nice to see you </strong></p>       
+            </div>        
           </div>
-          <div class="modal-footer"> 
-            <button class="btn btn-primary save">SAVE</button>
+          <div class="card">
+            <div class="card-block">
+              <h4 class="card-title text-right icon"><i class="material-icons" data-toggle="modal" data-target="#flipflop">settings</i></h4>
+              <img class="img-Cards" src="https://media.giphy.com/media/ukMiDlCmdv2og/giphy.gif">
+              <h4 class="card-title mt-2">Card 2</h4>
+              <p class="card-text"><strong class="animated-text">Hello Card 2, Nice to see you </strong></p>       
+            </div>
           </div>
+          <div class="card">
+            <div class="card-block">
+              <h4 class="card-title text-right icon"><i class="material-icons" data-toggle="modal" data-target="#card-3">settings</i></h4>
+              <img class="img-Cards" src="https://media.giphy.com/media/l3q2XB76CaWPggiNW/giphy.gif">
+              <h4 class="card-title mt-2">Card 3</h4>
+              <p class="card-text"><strong class="animated-text">Hello Card 3, Nice to see you, you should look bigger than the card 1 and card 2. please click on cog icon for form modal</strong></p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-block">
+              <h4 class="card-title text-right icon"><i class="material-icons">settings</i></h4>
+              <img class="img-Cards" src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif">
+              <h4 class="card-title mt-2">Card 4</h4>
+              <p class="card-text"><strong class="animated-text">Hello Card 4, Nice to see you</strong></p>       
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-block">
+              <h4 class="card-title text-right icon"><i class="material-icons">settings</i></h4>
+              <img class="img-Cards" src="https://media.giphy.com/media/xT4uQF7h39mlsF5czK/giphy.gif">
+              <h4 class="card-title mt-2">Card 5</h4>
+              <p class="card-text"><strong class="animated-text">Hello Card 5, Nice to see you, you should look bigger than the card 1 and card 2. please improve</strong></p>
+            </div>
+          </div> -->
+          
         </div>
       </div>
     </div>
@@ -648,9 +710,7 @@
           <div class="container">
               <!-- Sec Title -->
               <div class="sec-title centered">
-                  <div class="title">Our Team</div>
-                  <div class="separator"><span></span></div>
-                  <h2>Lorem Ipsum dummy text</h2>
+                  <h2>Our Team</h2>
               </div>
   
               <div class="row clearfix">
@@ -659,14 +719,14 @@
                   <div class="team-block col-lg-4 col-md-6 col-sm-12">
                       <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                           <ul class="social-icons">
-                              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                              <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                              <li><a href="#"><i data-feather='facebook'></i></a></li>
+                              <li><a href="#"><i data-feather="twitter"></i></a></li>
+                              <li><a href="#"><i data-feather="instagram"></i></a></li>
   
                               <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                           </ul>
                           <div class="image">
-                              <a href="#"><img src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="" /></a>
+                              <a href="#"><img src="img/1.jpg" alt="" /></a>
                           </div>
                           <div class="lower-content">
                               <h3><a href="#">Lorem Ipsum </a></h3>
@@ -678,14 +738,14 @@
                   <div class="team-block col-lg-4 col-md-6 col-sm-12">
                       <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                           <ul class="social-icons">
-                              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                              <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                              <li><a href="#"><i data-feather='facebook'></i></a></li>
+                              <li><a href="#"><i data-feather="twitter"></i></a></li>
+                              <li><a href="#"><i data-feather="instagram"></i></a></li>
   
                               <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                           </ul>
                           <div class="image">
-                              <a href="#"><img src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="" /></a>
+                              <a href="#"><img src="img/2.jpg" alt="" /></a>
                           </div>
                           <div class="lower-content">
                               <h3><a href="#">Lorem Ipsum </a></h3>
@@ -697,14 +757,14 @@
                   <div class="team-block col-lg-4 col-md-6 col-sm-12">
                       <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                           <ul class="social-icons">
-                              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                              <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                              <li><a href="#"><i data-feather='facebook'></i></a></li>
+                              <li><a href="#"><i data-feather="twitter"></i></a></li>
+                              <li><a href="#"><i data-feather="instagram"></i></a></li>
   
                               <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                           </ul>
                           <div class="image">
-                              <a href="#"><img src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="" /></a>
+                              <a href="#"><img src="img/3.jpg" alt="" /></a>
                           </div>
                           <div class="lower-content">
                               <h3><a href="#">Lorem Ipsum </a></h3>
@@ -716,14 +776,14 @@
                   <div class="team-block col-lg-4 col-md-6 col-sm-12">
                       <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                           <ul class="social-icons">
-                              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                              <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                              <li><a href="#"><i data-feather='facebook'></i></a></li>
+                              <li><a href="#"><i data-feather="twitter"></i></a></li>
+                              <li><a href="#"><i data-feather="instagram"></i></a></li>
   
                               <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                           </ul>
                           <div class="image">
-                              <a href="#"><img src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="" /></a>
+                              <a href="#"><img src="img/4.jpg" alt="" /></a>
                           </div>
                           <div class="lower-content">
                               <h3><a href="#">Lorem Ipsum </a></h3>
@@ -735,14 +795,14 @@
                   <div class="team-block col-lg-4 col-md-6 col-sm-12">
                       <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                           <ul class="social-icons">
-                              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                              <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                              <li><a href="#"><i data-feather='facebook'></i></a></li>
+                              <li><a href="#"><i data-feather="twitter"></i></a></li>
+                              <li><a href="#"><i data-feather="instagram"></i></a></li>
   
                               <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                           </ul>
                           <div class="image">
-                              <a href="#"><img src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="" /></a>
+                              <a href="#"><img src="img/sayok dhar pic.jpg" alt="" /></a>
                           </div>
                           <div class="lower-content">
                               <h3><a href="#">Lorem Ipsum </a></h3>
@@ -754,14 +814,14 @@
                   <div class="team-block col-lg-4 col-md-6 col-sm-12">
                       <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                           <ul class="social-icons">
-                              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                              <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                              <li><a href="#"><i data-feather='facebook'></i></a></li>
+                              <li><a href="#"><i data-feather="twitter"></i></a></li>
+                              <li><a href="#"><i data-feather="instagram"></i></a></li>
   
                               <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                           </ul>
                           <div class="image">
-                              <a href="#"><img src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="" /></a>
+                              <a href="#"><img src="img/1.jpg" alt="" /></a>
                           </div>
                           <div class="lower-content">
                               <h3><a href="#">Lorem Ipsum </a></h3>
@@ -774,12 +834,6 @@
           </div>
       </section>
   </section>
-
-
-  <!-- RANDOM -->
-
-  
-    <!-- END OF RANDOM -->
 
   <!-- End of About -->
 
@@ -801,7 +855,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.1/jquery.flexslider.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.0/masonry.pkgd.min.js"></script>
-    
+    <script>
+      feather.replace()
+    </script>
     
   </body>
 </html>
