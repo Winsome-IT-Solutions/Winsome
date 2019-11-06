@@ -1,0 +1,129 @@
+ <section>
+      <section class="team-page-section">
+          <div class="container">
+              <!-- Sec Title -->
+              <div class="sec-title centered">
+                  <h2>Our Team</h2>
+              </div>
+  
+              <div class="row clearfix">
+  
+                  <!-- Team Block -->
+                  <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                      <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                          <ul class="social-icons">
+                              <li><a href="#"><i data-feather='facebook'></i></a></li>
+                              <li><a href="#"><i data-feather="twitter"></i></a></li>
+                              <li><a href="#"><i data-feather="instagram"></i></a></li>
+  
+                              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                          </ul>
+                          <div class="image">
+                              <a href="#"><img src="img/1.jpg" alt="" /></a>
+                          </div>
+                          <div class="lower-content">
+                              <h3><a href="#">Lorem Ipsum </a></h3>
+                              <div class="designation">Simply dummy text </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Team Block -->
+                  <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                      <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                          <ul class="social-icons">
+                              <li><a href="#"><i data-feather='facebook'></i></a></li>
+                              <li><a href="#"><i data-feather="twitter"></i></a></li>
+                              <li><a href="#"><i data-feather="instagram"></i></a></li>
+  
+                              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                          </ul>
+                          <div class="image">
+                              <a href="#"><img src="img/2.jpg" alt="" /></a>
+                          </div>
+                          <div class="lower-content">
+                              <h3><a href="#">Lorem Ipsum </a></h3>
+                              <div class="designation">Simply dummy text </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Team Block -->
+                  <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                      <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                          <ul class="social-icons">
+                              <li><a href="#"><i data-feather='facebook'></i></a></li>
+                              <li><a href="#"><i data-feather="twitter"></i></a></li>
+                              <li><a href="#"><i data-feather="instagram"></i></a></li>
+  
+                              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                          </ul>
+                          <div class="image">
+                              <a href="#"><img src="img/3.jpg" alt="" /></a>
+                          </div>
+                          <div class="lower-content">
+                              <h3><a href="#">Lorem Ipsum </a></h3>
+                              <div class="designation">Simply dummy text </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Team Block -->
+                  <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                      <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                          <ul class="social-icons">
+                              <li><a href="#"><i data-feather='facebook'></i></a></li>
+                              <li><a href="#"><i data-feather="twitter"></i></a></li>
+                              <li><a href="#"><i data-feather="instagram"></i></a></li>
+  
+                              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                          </ul>
+                          <div class="image">
+                              <a href="#"><img src="img/4.jpg" alt="" /></a>
+                          </div>
+                          <div class="lower-content">
+                              <h3><a href="#">Lorem Ipsum </a></h3>
+                              <div class="designation">Simply dummy text </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Team Block -->
+                  <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                      <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                          <ul class="social-icons">
+                              <li><a href="#"><i data-feather='facebook'></i></a></li>
+                              <li><a href="#"><i data-feather="twitter"></i></a></li>
+                              <li><a href="#"><i data-feather="instagram"></i></a></li>
+  
+                              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                          </ul>
+                          <div class="image">
+                              <a href="#"><img src="img/sayok dhar pic.jpg" alt="" /></a>
+                          </div>
+                          <div class="lower-content">
+                              <h3><a href="#">Lorem Ipsum </a></h3>
+                              <div class="designation">Simply dummy text </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Team Block -->
+                  <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                      <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                          <ul class="social-icons">
+                              <li><a href="#"><i data-feather='facebook'></i></a></li>
+                              <li><a href="#"><i data-feather="twitter"></i></a></li>
+                              <li><a href="#"><i data-feather="instagram"></i></a></li>
+  
+                              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                          </ul>
+                          <div class="image">
+                              <a href="#"><img src="img/1.jpg" alt="" /></a>
+                          </div>
+                          <div class="lower-content">
+                              <h3><a href="#">Lorem Ipsum </a></h3>
+                              <div class="designation">Simply dummy text </div>
+                          </div>
+                      </div>
+                  </div>
+  
+              </div>
+          </div>
+      </section>
+  </section>

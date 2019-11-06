@@ -12,12 +12,15 @@ body {
   font-family: Circular-Std-Medium;
   overflow-x: hidden;
 }
-
+.dropdown-menu.show {
+  background: rgba(122, 189, 248, 0.945) !important;
+}
 /* hero-container */
 
 .hero-container {
   padding-top: 40px;
   align-items: center;
+  background: whitesmoke;
 }
 
 .hero-text-block {
@@ -38,7 +41,6 @@ body {
   position: relative;
 }
 .bg1 {
-  z-index: -1;
   width: 800px;
   position: absolute;
   left: -674px;
@@ -354,6 +356,8 @@ body {
 .aboutUs-container {
   padding-left: 175px;
   padding-top: 285px;
+  z-index: -4;
+  background: seashell;
 }
 
 /* End of About us */
@@ -457,7 +461,7 @@ body {
 /* Testimonials */
 
 .testimonial-container {
-  background-color: rgba(245, 245, 245, 1);
+  background-color: white;
   width: 100%;
 }
 
@@ -466,11 +470,16 @@ body {
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
-  background-color: rgba(245, 245, 245, 1);
+  background-color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 100px 0px 40px;
   z-index: 1;
+}
+
+.flex-direction-nav .flex-prev,
+.flex-direction-nav .flex-next {
+  background-color: #fff;
 }
 
 .cd-testimonials-wrapper h2 {
@@ -787,7 +796,10 @@ ul.cd-author-info li span {
   display: inline-block;
   line-height: 1em;
 }
-
+/* Header */
+.header-bg {
+  background: rgba(122, 189, 248, 0.61);
+}
 /* header ANIMATIONS */
 
 .area-bg {
@@ -799,7 +811,7 @@ ul.cd-author-info li span {
   left: 0;
   top: 0;
   width: 100%;
-  z-index: -9;
+  z-index: 20;
 }
 
 .circles {
@@ -1171,7 +1183,9 @@ image img {
 .team-block .inner-box:hover::after {
   width: 81%;
 }
-
+.social-icons {
+  margin-left: 20%;
+}
 .team-block .inner-box .social-icons {
   position: absolute;
   right: 25px;
@@ -1530,4 +1544,9 @@ image img {
   top: 81%;
   left: 56%;
   box-shadow: -10px 20px 15px -10px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+.footer-bg {
+  background: rgba(220, 220, 221, 0.726);
 }
