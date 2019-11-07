@@ -363,7 +363,9 @@ body {
 /* End of About us */
 
 /* Service Cards  */
-
+.service {
+  margin-top: 10px;
+}
 .icon i {
   font-size: 20px;
   color: #ffa710;
@@ -1342,13 +1344,9 @@ image img {
 .card-head {
   position: relative;
   height: 252px;
-  background: #fa782e;
-  /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #fa782e 8%, #c82930 83%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #fa782e 8%, #c82930 83%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #fa782e 8%, #c82930 83%);
+  background: url("../img/web.png");
+  background-size: contain;
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fa782e', endColorstr='#c82930', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
@@ -1370,7 +1368,7 @@ image img {
 .product-detail {
   padding: 0 20px;
   font-size: 11px;
-  color: white;
+  color: rgb(8, 8, 8);
 }
 
 .product-detail h2 {
@@ -1389,12 +1387,6 @@ image img {
   margin-top: -26px;
   opacity: 0.1;
   cursor: pointer;
-}
-
-.card-body {
-  height: 255px;
-  background-color: white;
-  border-radius: 0 0 25px 25px;
 }
 
 .product-title {
