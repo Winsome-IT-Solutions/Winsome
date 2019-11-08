@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
     <title>Intelligent Transport System</title>
+    <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
@@ -115,67 +118,79 @@
         <li></li>
       </ul>
     </div>
-
-    <h1>Intelligent Transport System</h1>
-    <p>
-      An intelligent transportation system (ITS) is an advanced application
-      which aims to provide innovative services relating to different modes of
-      transport and traffic management and enable users to be better informed
-      and make safer, more coordinated, and 'smarter' use of transport networks.
-      Some of these technologies include calling for emergency services when an
-      accident occurs, using cameras to enforce traffic laws or signs that mark
-      speed limit changes depending on conditions. Although ITS may refer to all
-      modes of transport, the directive of the European Union 2010/40/EU, made
-      on July 7 2010, defined ITS as systems in which information and
-      communication technologies are applied in the field of road transport,
-      including infrastructure, vehicles and users, and in traffic management
-      and mobility management, as well as for interfaces with other modes of
-      transport. ITS may improve the efficiency of transport in a number of
-      situations, i.e. road transport, traffic management, mobility, etc.
-    </p>
+    <div class="page-margin row">
+      <div class="col-lg-6">
+        <h1>Intelligent Transport System</h1>
+        <p>
+          An intelligent transportation system (ITS) is an advanced application
+          which aims to provide innovative services relating to different modes
+          of transport and traffic management and enable users to be better
+          informed and make safer, more coordinated, and 'smarter' use of
+          transport networks. Some of these technologies include calling for
+          emergency services when an accident occurs, using cameras to enforce
+          traffic laws or signs that mark speed limit changes depending on
+          conditions. Although ITS may refer to all modes of transport, the
+          directive of the European Union 2010/40/EU, made on July 7 2010,
+          defined ITS as systems in which information and communication
+          technologies are applied in the field of road transport, including
+          infrastructure, vehicles and users, and in traffic management and
+          mobility management, as well as for interfaces with other modes of
+          transport. ITS may improve the efficiency of transport in a number of
+          situations, i.e. road transport, traffic management, mobility, etc.
+        </p>
+      </div>
+    </div>
     <div class="service" id="service">
-        <h2 class="text-center">Our Services</h2>
-        <div class="container-fluid"> 
-          <div class="card-deck mt-5">
-              <div class="card">
-                  <div class="card-head">
-                    <img src="img/Logo.png" alt="logo" class="card-logo">
-                    <div class="product-detail">
-                      <h2>Software Development</h2>
-                      <span>Our finest talent delivers premier tailored software development services, with our cost-effective software solutions</span>
-                    </div>
-                  </div>
-                  <div class="card-body">
-                    <div class="product-desc">
-                      <span><a href="software-development.html">Know more</a></span>
-                    </div>
-                  </div>
+      <h2 class="text-center">Services for ITS</h2>
+      <div class="container-fluid">
+        <section class="content">
+          <div class="grid grid--effect-polaris">
+            <a href="traffic-data.html" class="grid__item grid__item--c3">
+              <div class="stack">
+                <div class="stack__deco"></div>
+                <div class="stack__deco"></div>
+                <div class="stack__deco"></div>
+                <div class="stack__deco"></div>
+                <div class="stack__figure">
+                  <img class="stack__img" src="img/traffic.png" alt="Image" />
                 </div>
-                  <div class="card">
-                  <div class="card-head">
-                    <img src="img/Logo.png" alt="logo" class="card-logo">
-                    <div class="product-detail">
-                      <h2>Web Development</h2>
-                      <span>Winsome development process is always focused on application flexibility and scalability.</span>
-                    </div>
-                  </div>
-                  <div class="card-body">
-                    <div class="product-desc">
-                        <span><a href="website-development.html">Know more</a></span>
-                    </div>
-                  </div>
+              </div>
+              <div class="grid__item-caption">
+                <h3 class="grid__item-title">Traffic Data Collection</h3>
+              </div>
+            </a>
+            <a href="toll-rev.html" class="grid__item grid__item--c2">
+              <div class="stack">
+                <div class="stack__deco"></div>
+                <div class="stack__deco"></div>
+                <div class="stack__deco"></div>
+                <div class="stack__deco"></div>
+                <div class="stack__figure">
+                  <img class="stack__img" src="img/revenue.png" alt="Image" />
                 </div>
-                  <div class="card">
-                  <div class="card-head">
-                    <img src="img/Logo.png" alt="logo" class="card-logo">
-                    <div class="product-detail">
-                      <h2>App Development</h2>
-                      <span>Our application maintenance services are available to provide greater efficiency and high agility to your business.</span>
-                    </div>
-                  </div>
-                  </div>
-                  </div>
-        </div>
+              </div>
+              <div class="grid__item-caption">
+                <h3 class="grid__item-title">Toll Revenue & Assurance</h3>
+              </div>
+            </a>
+            <a href="ofc-net.html" class="grid__item">
+              <div class="stack">
+                <div class="stack__deco"></div>
+                <div class="stack__deco"></div>
+                <div class="stack__deco"></div>
+                <div class="stack__deco"></div>
+                <div class="stack__figure">
+                  <img class="stack__img" src="img/ofc.png" alt="Image" />
+                </div>
+              </div>
+              <div class="grid__item-caption">
+                <h3 class="grid__item-title">OFC Network Design & Laying</h3>
+              </div>
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
     <footer class="py-5 footer-bg">
       <div class="container">
         <div class="row">
@@ -263,6 +278,8 @@
     </footer>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/anime.min.js"></script>
     <script src="js/main.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
@@ -275,6 +292,66 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.0/masonry.pkgd.min.js"></script>
     <script>
       feather.replace();
+    </script>
+    <script>
+      (function() {
+        [].slice
+          .call(document.querySelectorAll(".grid--effect-vega > .grid__item"))
+          .forEach(function(stackEl) {
+            new VegaFx(stackEl);
+          });
+        [].slice
+          .call(document.querySelectorAll(".grid--effect-castor > .grid__item"))
+          .forEach(function(stackEl) {
+            new CastorFx(stackEl);
+          });
+        [].slice
+          .call(document.querySelectorAll(".grid--effect-hamal > .grid__item"))
+          .forEach(function(stackEl) {
+            new HamalFx(stackEl);
+          });
+        [].slice
+          .call(
+            document.querySelectorAll(".grid--effect-polaris > .grid__item")
+          )
+          .forEach(function(stackEl) {
+            new PolarisFx(stackEl);
+          });
+        [].slice
+          .call(
+            document.querySelectorAll(".grid--effect-alphard > .grid__item")
+          )
+          .forEach(function(stackEl) {
+            new AlphardFx(stackEl);
+          });
+        [].slice
+          .call(document.querySelectorAll(".grid--effect-altair > .grid__item"))
+          .forEach(function(stackEl) {
+            new AltairFx(stackEl);
+          });
+        [].slice
+          .call(document.querySelectorAll(".grid--effect-rigel > .grid__item"))
+          .forEach(function(stackEl) {
+            new RigelFx(stackEl);
+          });
+        [].slice
+          .call(
+            document.querySelectorAll(".grid--effect-canopus > .grid__item")
+          )
+          .forEach(function(stackEl) {
+            new CanopusFx(stackEl);
+          });
+        [].slice
+          .call(document.querySelectorAll(".grid--effect-pollux > .grid__item"))
+          .forEach(function(stackEl) {
+            new PolluxFx(stackEl);
+          });
+        [].slice
+          .call(document.querySelectorAll(".grid--effect-deneb > .grid__item"))
+          .forEach(function(stackEl) {
+            new DenebFx(stackEl);
+          });
+      })();
     </script>
   </body>
 </html>
