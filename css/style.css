@@ -1398,7 +1398,18 @@ image img {
   -o-transition: all 0.4s;
   transition: all 0.4s;
 }
-
+.text-fb {
+  color: #1877f2;
+}
+.text-twitter {
+  color: #1da1f2;
+}
+.text-insta {
+  color: #fa1d55;
+}
+.text-yt {
+  color: #ff0000;
+}
 .team-block .inner-box:hover .lower-content h3 a,
 .team-block .inner-box:hover .social-icons li a,
 .team-block .inner-box:hover .lower-content .designation {
