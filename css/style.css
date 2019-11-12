@@ -173,114 +173,38 @@ hr.style18:before {
   font-family: Circular-Std-Book;
   font-size: 25px;
 }
-
-.animation-block {
-  padding-right: 20px;
+.wis-header {
+  background-color: #eeeeee;
+}
+.display-4 {
+  margin: 2%;
+  text-align: center;
+}
+.lead {
+  text-align: justify;
+}
+.working {
+  background-color: #eeeeee;
+}
+.gif-working {
+  width: 100%;
 }
 
-.animation-block {
-  position: relative;
-}
-.bg1 {
-  width: 800px;
-  position: absolute;
-  left: -674px;
-  top: -153px;
-}
-
-.bg2 {
-  transform: scale(0.6);
-  position: absolute;
-  left: -400px;
-  top: -29px;
-  animation: animateman 1s ease-in-out forwards;
-}
-
-@keyframes animateman {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(0.6);
-  }
-}
-
-.bg3 {
-  transform: scale(0.8);
-  position: absolute;
-  left: -505px;
-  top: 168px;
-  animation: animatecat 1s ease-in-out forwards;
-}
-
-@keyframes animatecat {
-  0% {
-    transform: scale(0);
-    left: -100px;
-  }
-  100% {
-    transform: scale(0.8);
-    left: -505px;
-  }
-}
-
-.typing {
-  width: 13ch;
-  border-right: 2px solid #000;
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 5s steps(22), caret 0.5s step-end infinite alternate;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-}
-
-@keyframes caret {
-  50% {
-    border-color: transparent;
-  }
+.hero-jumb {
+  background-color: #eeeeee;
 }
 
 /* End of hero-container */
 
 /* About Us */
 
-@keyframes writeLine {
-  0% {
-    clip-path: polygon(0 0, 0 100%, 0 100%, 0 0);
-  }
-  100% {
-    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
-  }
+.row {
+  background-color: #e6e8ec;
 }
-@keyframes keydown {
-  0% {
-    fill-opacity: 0.1;
-  }
-  15% {
-    fill-opacity: 0.3;
-  }
-  30% {
-    fill-opacity: 0.1;
-  }
+.about {
+  text-align: justify;
+  margin: 8%;
 }
-@keyframes appOpen {
-  0% {
-    opacity: 0;
-    transform: scale(0.3);
-  }
-  30% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
 .aboutUs-container {
   z-index: -4;
   background: #e7e8ec;
@@ -372,8 +296,9 @@ hr.style18:before {
 .stack {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 30%;
   transform-style: preserve-3d;
+  z-index: -2;
 }
 
 .stack__deco {
@@ -635,7 +560,6 @@ hr.style18:before {
   margin: 0;
   padding: 0.5em;
 }
-
 @media screen and (max-width: 42em) {
   .codrops-header {
     display: block;
@@ -667,7 +591,6 @@ hr.style18:before {
   background-color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 100px 0px 40px;
   z-index: 1;
 }
 
@@ -680,19 +603,14 @@ hr.style18:before {
   text-align: center;
   position: absolute;
   width: 100%;
-  top: 60px;
   margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
-  .cd-testimonials-wrapper {
-    padding: 170px 0px 60px;
-  }
   .cd-testimonials-wrapper h2 {
     text-align: center;
     position: absolute;
     width: 100%;
-    top: 50px;
     margin: 0 auto;
   }
 }
@@ -725,7 +643,6 @@ hr.style18:before {
   font-style: italic;
   line-height: 1.4;
   margin-bottom: 1em;
-  padding: 0 14px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -1375,7 +1292,7 @@ image img {
   width: 81%;
 }
 .social-icons {
-  margin-left: 20%;
+  text-align: center;
 }
 .team-block .inner-box .social-icons {
   position: absolute;

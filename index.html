@@ -2,10 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
+    <!-- <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    /> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
     <meta name="description" content="" />
     <meta name="author" content="" />
     <link rel="icon" href="img/favicon.png" type="image/x-icon"/>
@@ -31,7 +34,7 @@
     <nav class="navbar navbar-expand-lg header-bg fixed-top">
       <div class="container">
         <a class="navbar-brand text-dark" href="index.html">WINSOME</a>
-        <button
+        <button 
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -39,8 +42,10 @@
           aria-controls="navbarResponsive"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          
         >
-          <span class="navbar-toggler-icon"></span>
+        <i data-feather='menu'></i>
+          <!-- <span class="navbar-toggler-icon"></span> -->
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
@@ -75,12 +80,33 @@
       </div>
     </nav>
 
+   
+ 
     <!-- End of navigation -->
 
     <!-- Hero Section -->
     
-    <div class="hero-container d-flex justify-content-between">
-      <h1 class="hero-text-block display-3 typing">
+           <div class="hero">
+              <div class="row flex-column-reverse flex-md-row">
+                  <div class="col-lg-4 col-md-4 col-sm-4 wis-header">
+                      <div class="jumbotron hero-jumb">
+                          <h1 class="display-4">Winsome <br> IT Solutions</h1>
+                          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                          </p>
+                          <hr class="my-4">
+                          
+                          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                        </div>
+                   </div>
+                   <div class="col-lg-8 col-md-8 col-sm-8 working">
+                      <img class="gif-working" src="img/working.gif" alt="">
+                    </div>
+             </div>
+           </div>
+   
+    <!-- <div class="hero-container d-flex justify-content-between">
+      <h1 class="hero-text-block display-3">
         WINSOME <span class="d-block" style="font-size: 2.5rem;">IT SOLUTIONS</span>
         <small class="hero-subheading d-block text-muted"
           >Delivering Possibilities</small
@@ -92,7 +118,9 @@
         <img class="bg2" src="img/person.png" alt="" />
         <img class="bg3" src="img/cat.png" alt="" />
       </div>
-    </div>
+    </div> -->
+
+
     <div class="area-bg">
       <ul class="circles">
         <li></li>
@@ -110,7 +138,7 @@
     <!-- End of Hero Section -->
 
     <!-- About Us -->
-    <div class="aboutUs-container d-flex">
+    <!-- <div class="aboutUs-container d-flex">
         <div class="col-lg-6">
           <img src="img/stack.gif" alt="" style='width: 600px;'>
               </div>
@@ -130,7 +158,28 @@
         Assessment.
       </div>
     </div>
-    </div>
+    </div> -->
+
+    <!-- <div class="container"> -->
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6"> <img src="img/stack.gif" alt="" style='width: 100%;'></div>
+          <div class="col-lg-4 col-md-4 col-sm-4 about"><h2 class="aboutUs-block display-4">
+              About Us
+              <small class="hero-subheading d-block text-muted">Who We Are</small>
+            </h2>
+      
+            <div class="aboutUs-text-block">
+              We simply the best ... A unit of Chaitanya Projects an ISO-9001:2008
+              Certified Company, is a leading international Consulting Organization
+              specializing in Highways & Bridges, Structures, Urban and Regional
+              Infrastructure Development, Water Supply, Water Resources Development
+              and Management, Traffic and Transportation, Institutional Strengthening
+              and Capacity Building, and, SocioEconomic and Environmental Impact
+              Assessment.
+            </div></div>
+        </div>
+    <!-- </div> -->
+    
 
     <!-- End of About us -->
 
@@ -239,14 +288,15 @@
     <!-- Testimonials -->
 
         <div class="dk-container">
+            <div class="testimonial-header"><h2 class='display-4'>Testimonials</h2></div>
           <div class="cd-testimonials-wrapper cd-container">
-            <h2 class='display-4'>Testimonials</h2>
+           
             <div class="arrows prev"></div>
             <div class="arrows next"></div>
             <ul class="cd-testimonials">
               <li>
                 <div class="testimonial-content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                  <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
                   <div class="cd-author">
                     <img src="http://placehold.it/350x350/222222/222222" alt="Author image">
                     <ul class="cd-author-info">
@@ -294,7 +344,7 @@
       <footer class="py-5 footer-bg">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-6 col-md-4">
             <li class="text-dark"><a class="text-dark" href="index.html">Home </a></li>
             <li class="text-dark"><a class="text-dark" href="faq.html">FAQ</a></li>
             <li class="text-dark"><a class="text-dark" href="about-us.html">About Us</a></li>
@@ -302,7 +352,7 @@
             <li class="text-dark"><a class="text-dark" href="contact-us.html">Contact Us</a></li>
             <li class="text-dark"><a class="text-dark" href="projects.html">Projects</a></li>
           </div>
-          <div class="col-lg-4">
+          <div class="col-6 col-md-4">
               <li class="text-dark"><a class="text-dark" href="website-development.html">Web Development</a></li>
               <li class="text-dark"><a class="text-dark" href="software-development.html">Software Development</a></li>
               <li class="text-dark"><a class="text-dark" href="app-development.html">App Development</a></li>
@@ -310,7 +360,7 @@
               <li class="text-dark"><a class="text-dark" href="digital-marketing.html">Digital Marketing</a></li>
               <li class="text-dark"><a class="text-dark" href="contact-center.html">Contact Center Services</a></li>
             </div>
-            <div class="col-lg-4">
+            <div class="col-12 col-md-4">
               <li class="text-dark">Office Adress</li>
               <p class="text-dark">Winsome IT Solutions India Pvt. Ltd.
                   Module 807, 8th Floor, Merlin Infinite,
