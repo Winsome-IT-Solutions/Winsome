@@ -11,6 +11,7 @@
 body {
   font-family: Circular-Std-Medium;
   overflow-x: hidden;
+  background-color: #e6e8ec;
 }
 hr.style1 {
   border-top: 1px solid #8c8b8b;
@@ -579,7 +580,7 @@ hr.style18:before {
 /* Testimonials */
 
 .testimonial-container {
-  background-color: white;
+  background-color: #8c8b8b;
   width: 100%;
 }
 
@@ -1098,10 +1099,14 @@ image img {
   max-width: 100%;
   height: auto;
 }
-
+.team-section {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  position: relative;
+  padding: 40px 0px 60px !important;
+}
 .team-page-section {
   position: relative;
-  padding-top: 70px;
 }
 
 .team-page-section .team-block {
@@ -1657,5 +1662,7 @@ image img {
 
 /* Footer */
 .footer-bg {
-  background: rgba(220, 220, 221, 0.726);
+  background-color: rgba(220, 220, 221, 0.726) !important;
+  padding-top: 0rem !important;
+  margin: 20px 20px 20px 20px;
 }

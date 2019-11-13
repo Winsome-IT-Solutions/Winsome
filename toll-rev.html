@@ -42,7 +42,8 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <i data-feather="menu"></i>
+          <!-- <span class="navbar-toggler-icon"></span> -->
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
@@ -157,75 +158,72 @@
       </div>
     </div>
 
-    <footer class="py-5 footer-bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <li class="text-dark">
-              <a class="text-dark" href="index.html">Home </a>
-            </li>
-            <li class="text-dark">
-              <a class="text-dark" href="faq.html">FAQ</a>
-            </li>
-            <li class="text-dark">
-              <a class="text-dark" href="about-us.html">About Us</a>
-            </li>
-            <li class="text-dark">
-              <a class="text-dark" href="career.html">Career</a>
-            </li>
-            <li class="text-dark">
-              <a class="text-dark" href="contact-us.html">Contact Us</a>
-            </li>
-            <li class="text-dark">
-              <a class="text-dark" href="projects.html">Projects</a>
-            </li>
-          </div>
-          <div class="col-lg-4">
-            <li class="text-dark">
-              <a class="text-dark" href="website-development.html"
-                >Web Development</a
-              >
-            </li>
-            <li class="text-dark">
-              <a class="text-dark" href="software-development.html"
-                >Software Development</a
-              >
-            </li>
-            <li class="text-dark">
-              <a class="text-dark" href="app-development.html"
-                >App Development</a
-              >
-            </li>
-            <li class="text-dark">
-              <a class="text-dark" href="intelligent-transport.html"
-                >Intelligent Transport System</a
-              >
-            </li>
-            <li class="text-dark">
-              <a class="text-dark" href="digital-marketing.html"
-                >Digital Marketing</a
-              >
-            </li>
-            <li class="text-dark">
-              <a class="text-dark" href="contact-center.html"
-                >Contact Center Services</a
-              >
-            </li>
-          </div>
-          <div class="col-lg-4">
-            <li class="text-dark">Office Adress</li>
-            <p class="text-dark">
-              Winsome IT Solutions India Pvt. Ltd. Module 807, 8th Floor, Merlin
-              Infinite, DN-51, Sector V, Salt Lake, Kolkata-700091. Land Mark:
-              RS Software Stop
-            </p>
-            <li class="text-dark">Email ID</li>
-            <p class="text-dark">info@winsomeitsolutions.com</p>
-            <li class="text-dark">Contact No.</li>
-            <p class="text-dark">+(91)953-159-0577</p>
-          </div>
+    <footer class="footer-bg">
+      <div class="row">
+        <div class="col-6 col-md-4">
+          <li class="text-dark">
+            <a class="text-dark" href="index.html">Home </a>
+          </li>
+          <li class="text-dark">
+            <a class="text-dark" href="faq.html">FAQ</a>
+          </li>
+          <li class="text-dark">
+            <a class="text-dark" href="about-us.html">About Us</a>
+          </li>
+          <li class="text-dark">
+            <a class="text-dark" href="career.html">Career</a>
+          </li>
+          <li class="text-dark">
+            <a class="text-dark" href="contact-us.html">Contact Us</a>
+          </li>
+          <li class="text-dark">
+            <a class="text-dark" href="projects.html">Projects</a>
+          </li>
         </div>
-        <div class="social-icons text-dark">
+        <div class="col-6 col-md-4">
+          <li class="text-dark">
+            <a class="text-dark" href="website-development.html"
+              >Web Development</a
+            >
+          </li>
+          <li class="text-dark">
+            <a class="text-dark" href="software-development.html"
+              >Software Development</a
+            >
+          </li>
+          <li class="text-dark">
+            <a class="text-dark" href="app-development.html">App Development</a>
+          </li>
+          <li class="text-dark">
+            <a class="text-dark" href="intelligent-transport.html"
+              >Intelligent Transport System</a
+            >
+          </li>
+          <li class="text-dark">
+            <a class="text-dark" href="digital-marketing.html"
+              >Digital Marketing</a
+            >
+          </li>
+          <li class="text-dark">
+            <a class="text-dark" href="contact-center.html"
+              >Contact Center Services</a
+            >
+          </li>
+        </div>
+        <div class="col-12 col-md-4">
+          <li class="text-dark">Office Adress</li>
+          <p class="text-dark">
+            Winsome IT Solutions India Pvt. Ltd. Module 807, 8th Floor, Merlin
+            Infinite, DN-51, Sector V, Salt Lake, Kolkata-700091. Land Mark: RS
+            Software Stop
+          </p>
+          <li class="text-dark">Email ID</li>
+          <p class="text-dark">info@winsomeitsolutions.com</p>
+          <li class="text-dark">Contact No.</li>
+          <p class="text-dark">+(91)953-159-0577</p>
+        </div>
+
+        <div class="social-icons text-dark  col-12">
           <ul class="social-icons">
             <a class="text-fb" href="#"><i data-feather="facebook"></i></a
             >&nbsp;&nbsp;&nbsp;&nbsp;
@@ -236,14 +234,16 @@
             <a class="text-yt" href="#"><i data-feather="linkedin"></i></a>
           </ul>
         </div>
-        <p class="m-0 text-dark">
+        <p class="m-0 text-dark col-12">
           Copyright &copy; Winsome IT Solutions, 2019
         </p>
       </div>
-      <!-- /.container -->
     </footer>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/anime.min.js"></script>
     <script src="js/main.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
@@ -256,6 +256,66 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.0/masonry.pkgd.min.js"></script>
     <script>
       feather.replace();
+    </script>
+    <script>
+      (function() {
+        [].slice
+          .call(document.querySelectorAll(".grid--effect-vega > .grid__item"))
+          .forEach(function(stackEl) {
+            new VegaFx(stackEl);
+          });
+        [].slice
+          .call(document.querySelectorAll(".grid--effect-castor > .grid__item"))
+          .forEach(function(stackEl) {
+            new CastorFx(stackEl);
+          });
+        [].slice
+          .call(document.querySelectorAll(".grid--effect-hamal > .grid__item"))
+          .forEach(function(stackEl) {
+            new HamalFx(stackEl);
+          });
+        [].slice
+          .call(
+            document.querySelectorAll(".grid--effect-polaris > .grid__item")
+          )
+          .forEach(function(stackEl) {
+            new PolarisFx(stackEl);
+          });
+        [].slice
+          .call(
+            document.querySelectorAll(".grid--effect-alphard > .grid__item")
+          )
+          .forEach(function(stackEl) {
+            new AlphardFx(stackEl);
+          });
+        [].slice
+          .call(document.querySelectorAll(".grid--effect-altair > .grid__item"))
+          .forEach(function(stackEl) {
+            new AltairFx(stackEl);
+          });
+        [].slice
+          .call(document.querySelectorAll(".grid--effect-rigel > .grid__item"))
+          .forEach(function(stackEl) {
+            new RigelFx(stackEl);
+          });
+        [].slice
+          .call(
+            document.querySelectorAll(".grid--effect-canopus > .grid__item")
+          )
+          .forEach(function(stackEl) {
+            new CanopusFx(stackEl);
+          });
+        [].slice
+          .call(document.querySelectorAll(".grid--effect-pollux > .grid__item"))
+          .forEach(function(stackEl) {
+            new PolluxFx(stackEl);
+          });
+        [].slice
+          .call(document.querySelectorAll(".grid--effect-deneb > .grid__item"))
+          .forEach(function(stackEl) {
+            new DenebFx(stackEl);
+          });
+      })();
     </script>
   </body>
 </html>
