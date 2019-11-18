@@ -356,7 +356,7 @@ hr.style18:before {
 }
 h1 {
   color: #4f504f;
-  font-family: "Bitter", serif;
+  font-family: "", serif;
   font-size: 60px;
   font-weight: normal;
   text-align: center;
@@ -364,7 +364,7 @@ h1 {
 }
 h2 {
   color: #4f504f;
-  font-family: "Bitter", serif;
+  font-family: "", serif;
   font-size: 50px;
   font-weight: normal;
   text-align: center;
@@ -372,7 +372,7 @@ h2 {
 }
 h3 {
   color: #4f504f;
-  font-family: "Bitter", serif;
+  font-family: "", serif;
   font-size: 40px;
   font-weight: normal;
   text-align: center;
@@ -1750,9 +1750,32 @@ button#send {
 /* WEBSITE DEVELOPMENT  */
 
 .web-graphics {
-  position: absolute;
-  top: 20%;
-  left: 42%;
-  width: 55%;
-  height: 70%;
+  width: 95%;
+  padding-top: 5%;
+  padding-left: 5%;
 }
+
+/* END OF WEBSITE DEVELOPMENT */
+
+/* SOFTWARE DEVELOPMENT */
+
+.sw-graphics {
+  width: 95%;
+padding-top: 4%;
+padding-left: 4%;
+}
+
+/* TRANSPORT SYSTEM */
+
+.transport-graphics{
+  width: 75%;
+padding-top: 4%;
+padding-left: 9%;
+}
+
+/* END OF TRANSPORT SYSTEM */
+
+/* BLOG */
+
+/* SOCIAL ICONS */
+
