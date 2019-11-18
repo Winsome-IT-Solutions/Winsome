@@ -1746,3 +1746,13 @@ button#send {
 .form-group {
   padding: 10px;
 }
+
+/* WEBSITE DEVELOPMENT  */
+
+.web-graphics {
+  position: absolute;
+  top: 20%;
+  left: 42%;
+  width: 55%;
+  height: 70%;
+}
