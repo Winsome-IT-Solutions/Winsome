@@ -52,4 +52,3 @@ setInterval(() => {
     wrapper.classList.add("start");
   }, 50);
 }, 30000);
-
