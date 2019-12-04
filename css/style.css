@@ -337,6 +337,7 @@ hr.style18:before {
   position: relative;
   display: block;
   flex: none;
+  overflow: hidden;
 }
 
 .grid__item-caption {
@@ -1761,115 +1762,111 @@ button#send {
 
 .sw-graphics {
   width: 95%;
-padding-top: 4%;
-padding-left: 4%;
+  padding-top: 4%;
+  padding-left: 4%;
 }
 
 /* TRANSPORT SYSTEM */
 
-.transport-graphics{
+.transport-graphics {
   width: 75%;
-padding-top: 4%;
-padding-left: 9%;
+  padding-top: 4%;
+  padding-left: 9%;
 }
 
 /* END OF TRANSPORT SYSTEM */
 
 /* BLOG */
 
-
 .article-clean {
-  color:#56585b;
-  background-color:#fff;
-  font-family:'Lora', serif;
-  font-size:14px;
+  color: #56585b;
+  background-color: #fff;
+  font-family: "Lora", serif;
+  font-size: 14px;
 }
 
 .article-clean .intro {
-  font-size:16px;
-  margin:0 auto 30px;
+  font-size: 16px;
+  margin: 0 auto 30px;
 }
 
 .article-clean .intro h1 {
-  font-size:32px;
-  margin-bottom:15px;
-  padding-top:20px;
-  line-height:1.5;
-  color:inherit;
-  margin-top:20px;
+  font-size: 32px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  line-height: 1.5;
+  color: inherit;
+  margin-top: 20px;
 }
 
 .article-clean .intro p {
-  color:#929292;
-  font-size:12px;
+  color: #929292;
+  font-size: 12px;
 }
 
 .article-clean .intro p .by {
-  font-style:italic;
+  font-style: italic;
 }
 
 .article-clean .intro p .date {
-  text-transform:uppercase;
-  padding:4px 0 4px 10px;
-  margin-left:10px;
-  border-left:1px solid #ddd;
+  text-transform: uppercase;
+  padding: 4px 0 4px 10px;
+  margin-left: 10px;
+  border-left: 1px solid #ddd;
 }
 
 .article-clean .intro p a {
-  color:#333;
-  text-transform:uppercase;
-  padding-left:3px;
+  color: #333;
+  text-transform: uppercase;
+  padding-left: 3px;
 }
 
 .article-clean .intro img {
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 .article-clean .text p {
-  margin-bottom:20px;
-  line-height:1.45;
+  margin-bottom: 20px;
+  line-height: 1.45;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .article-clean .text p {
-    font-size:16px;
+    font-size: 16px;
   }
 }
 
 .article-clean .text h2 {
-  margin-top:28px;
-  margin-bottom:20px;
-  line-height:1.45;
-  font-size:16px;
-  font-weight:bold;
-  color:#333;
+  margin-top: 28px;
+  margin-bottom: 20px;
+  line-height: 1.45;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .article-clean .text h2 {
-    font-size:20px;
+    font-size: 20px;
   }
 }
 
 .article-clean .text figure {
-  text-align:center;
-  margin-top:30px;
-  margin-bottom:20px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .article-clean .text figure img {
-  margin-bottom:12px;
-  max-width:100%;
+  margin-bottom: 12px;
+  max-width: 100%;
 }
-
-
-
 
 /* END OF BLOG */
 
 /* CONTACT US */
 
-@import url('https://fonts.googleapis.com/css?family=Yantramanav:100,300');
+@import url("https://fonts.googleapis.com/css?family=Yantramanav:100,300");
 
 /* ------------- */
 /* GLOBAL STYLES */
@@ -1880,10 +1877,10 @@ padding-left: 9%;
 }
 
 body {
-  background:#EEEEEE;
+  background: #eeeeee;
   color: #485e74;
   line-height: 1.6;
-  font-family: 'Yantramanav', sans-serif;
+  font-family: "Yantramanav", sans-serif;
   padding: 1em;
 }
 
@@ -1901,9 +1898,9 @@ ul {
 
 .brand {
   text-align: center;
-	font-weight: 300;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .brand span {
@@ -1923,7 +1920,7 @@ ul {
 /* ------------------- */
 
 .company-info {
-  background: #C3C9DD;
+  background: #c3c9dd;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
@@ -1971,7 +1968,7 @@ ul {
 .contact form textarea {
   width: 100%;
   padding: 1em;
-  border: solid 1px #627EDC;
+  border: solid 1px #627edc;
   border-radius: 4px;
 }
 
@@ -1980,7 +1977,7 @@ ul {
 }
 
 .contact form button {
-  background: #627EDC;
+  background: #627edc;
   border: 0;
   color: #e4e4e4;
   text-transform: uppercase;
@@ -2024,4 +2021,3 @@ ul {
     text-align: left;
   }
 }
-
